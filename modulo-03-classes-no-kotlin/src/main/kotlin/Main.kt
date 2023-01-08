@@ -26,5 +26,6 @@ fun main() {
     println("Direção: $constanteSimples")
 
     val constanteComplexa : Cores = Cores.BLUE
-    println("COR(constante): ${constanteComplexa.getColor()}\nCOR(rgb): ${constanteComplexa.rgb}")
+    println("COR(constante): ${constanteComplexa.getColor()}")
+    println("COR(rgb): ${constanteComplexa.rgb}")
 }
